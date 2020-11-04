@@ -11,6 +11,7 @@ The Web Scraper has two versions:
   How to execute?
   
   No parameters needed.
+  
   Just type "node webscraper_v1.js"
 
 - webscraper_v2.js
@@ -22,4 +23,5 @@ The Web Scraper has two versions:
   How to execute?
   
   Needs at least two parameters: a search text and a price. A third parameter can be included as optional: a maximum price, to set a range of prices [price, maximumprice].
+  
   Type "node webscraper_v2.js (search_text*) (price*) (maximumprice)"
