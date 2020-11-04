@@ -10,7 +10,7 @@ async function extractData(searchstring, minprice, maxprice) {
         for (result of results) {
             console.log(result);
             let data = JSON.stringify(result);
-            fs.writeFile('smartphones.json', data);
+            fs.writeFile('data.json', data);
         }
     })
     .catch(err => {

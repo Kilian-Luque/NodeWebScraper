@@ -1,6 +1,5 @@
 var axios = require('axios');
 var cheerio = require('cheerio');
-const fs = require('fs');
 
 async function extractData() {
     console.log("Extracting data...");
@@ -9,8 +8,6 @@ async function extractData() {
     .then(results => {
         for (result of results) {
             console.log(result);
-            let data = JSON.stringify(result);
-            fs.writeFile('smartphones.json', data);
         }
     })
     .catch(err => {
