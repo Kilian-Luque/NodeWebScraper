@@ -8,7 +8,7 @@ The Web Scraper has two versions:
   
   Just extract the data of the smartphones for sale from the website and show it in console.
   
-  How to execute?
+  How to execute it?
   
   No parameters needed.
   
@@ -18,9 +18,9 @@ The Web Scraper has two versions:
 
   What does it do?
   
-  Extract the data of the products that match with a given search text and a given price (or range of prices) and it's sent to the interested Slack users by a Slack bot.
+  Extract the data of the products that match with a given search text and a given price (or range of prices), it's stored in a json file called "data.json" and it's sent to the interested Slack users by a Slack bot.
   
-  How to execute?
+  How to execute it?
   
   Needs at least two parameters: a search text and a price. A third parameter can be included as optional: a maximum price, to set a range of prices [price, maximumprice].
   
